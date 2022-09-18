@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    border-radius: 60px;
+    background: radial-gradient( circle at 30% 107%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 140px;
+    height: 140px;
+    background-color: transparent;
+    border: 12px solid white;
+    border-radius: 45px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle-big {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 12px solid white;
+    border-radius: 50%;
+}
+
+
+.circle-small {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    color: #285aeb;
+    text-align: center;
+}
